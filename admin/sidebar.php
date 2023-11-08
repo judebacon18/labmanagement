@@ -18,6 +18,22 @@
             </a>
           </li>
           <li class="nav-item dropdown">
+            <a href="./index.php?page=subject_list" class="nav-link nav-subject_list">
+              <i class="nav-icon fas fa-th-list"></i>
+              <p>
+                Subjects
+              </p>
+            </a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a href="./index.php?page=class_list" class="nav-link nav-class_list">
+              <i class="nav-icon fas fa-list-alt"></i>
+              <p>
+                Classes
+              </p>
+            </a>
+          </li> 
+          <li class="nav-item dropdown">
             <a href="./index.php?page=academic_list" class="nav-link nav-academic_list">
               <i class="nav-icon fas fa-calendar"></i>
               <p>
@@ -41,27 +57,11 @@
               </p>
             </a>
           </li> 
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="./index.php?page=new_faculty" class="nav-link nav-new_faculty tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
-                  <p>Add New</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index.php?page=faculty_list" class="nav-link nav-faculty_list tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
-                  <p>List</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-
           <li class="nav-item">
             <a href="#" class="nav-link nav-edit_faculty">
               <i class="nav-icon fas fa-user-friends"></i>
               <p>
-                Event
+                Faculties
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>

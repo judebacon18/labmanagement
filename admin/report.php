@@ -16,7 +16,7 @@ function ordinal_suffix($num){
 <div class="col-lg-12">
 	<div class="callout callout-info">
 		<div class="d-flex w-100 justify-content-center align-items-center">
-			<label for="faculty">Select Event</label>
+			<label for="faculty">Select Faculty</label>
 			<div class=" mx-2 col-md-4">
 			<select name="" id="faculty_id" class="form-control form-control-sm select2">
 				<option value=""></option>
@@ -56,7 +56,7 @@ function ordinal_suffix($num){
 			<hr>
 			<table width="100%">
 					<tr>
-						<td width="50%"><p><b>Event: <span id="fname"></span></b></p></td>
+						<td width="50%"><p><b>Faculty: <span id="fname"></span></b></p></td>
 						<td width="50%"><p><b>Academic Year: <span id="ay"><?php echo $_SESSION['academic']['year'].' '.(ordinal_suffix($_SESSION['academic']['semester'])) ?> Semester</span></b></p></td>
 					</tr>
 					<tr>

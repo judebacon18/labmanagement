@@ -3,13 +3,14 @@
 	<div class="card card-outline card-success">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_faculty"><i class="fa fa-plus"></i> Add New Event</a>
+				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_faculty"><i class="fa fa-plus"></i> Add New Faculty</a>
 			</div>
 		</div>
 		<div class="card-body">
 			<table class="table tabe-hover table-bordered" id="list">
 				<thead>
 					<tr>
+						<th class="text-center">#</th>
 						<th>School ID</th>
 						<th>Name</th>
 						<th>Email</th>
